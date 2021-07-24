@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./",
+        "experimentalDecorators": true,
+        "module": "es6",
+        "moduleResolution": "node",
+        "paths": {
+            "@apestaartje/date/*": ["../src/date/*"]
+        },
+        "removeComments": true,
+        "sourceMap": false,
+        "strict": true,
+        "target": "es6"
+    }
+}
