@@ -1,4 +1,4 @@
-import { clone } from '@apestaartje/date/clone';
+import { clone } from '../../../src/date/clone';
 
 describe('clone', (): void => {
     it('create a copy of a date', (): void => {

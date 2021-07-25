@@ -6,14 +6,8 @@ module.exports = {
         'ts-jest': {
             tsconfig: {
                 module: 'commonjs',
-                paths: {
-                    '@apestaartje/date/*': ['src/date/*'],
-                },
             },
         },
-    },
-    moduleNameMapper: {
-        '^@apestaartje/date/(.*)$': '<rootDir>/src/date/$1',
     },
     preset: 'ts-jest',
 };
