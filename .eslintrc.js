@@ -6,14 +6,11 @@ module.exports = {
         ecmaVersion: 2020,
         sourceType: 'module',
     },
-    settings: {
-    },
+    settings: {},
     extends: [
         'eslint:recommended',
         'plugin:@typescript-eslint/recommended',
-        'prettier/@typescript-eslint',
         'plugin:prettier/recommended',
     ],
-    plugins: ['@typescript-eslint', 'prettier'],
     rules: {},
 };
