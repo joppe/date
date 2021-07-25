@@ -1,3 +1,5 @@
+/* eslint-env node */
+
 module.exports = {
     coverageDirectory: 'coverage',
     globals: {
@@ -5,13 +7,13 @@ module.exports = {
             tsconfig: {
                 module: 'commonjs',
                 paths: {
-                    '@apestaartje/lens/*': ['src/*'],
+                    '@apestaartje/date/*': ['src/date/*'],
                 },
             },
         },
     },
     moduleNameMapper: {
-        '^@apestaartje/lens/(.*)$': '<rootDir>/src/$1',
+        '^@apestaartje/date/(.*)$': '<rootDir>/src/date/$1',
     },
     preset: 'ts-jest',
 };
